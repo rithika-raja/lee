@@ -1,0 +1,282 @@
+.contact {
+    /* background-color: #e0f7fa; */
+}
+
+.contactContainer {
+    /* background-color: #b2ebf2; */
+}
+
+.contactBody {
+    /* background-color: #e0f2f1; */
+    width: 100%;
+    height: auto;
+}
+
+.messageBlock {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 1rem;
+}
+
+.messageBox {
+    /* background-color: #95eb32; */
+    width: 100%;
+    height: auto;
+}
+
+.messageBox form {
+    /* background-color: #f0fff0; */
+    width: 100%;
+    height: auto;
+    padding: 4rem 4rem;
+}
+.formGroup{
+    /* background-color: #928571; */
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+}
+.formGroup input{
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border: #726f6f solid 0.1rem;
+    border-radius: 0.5rem ;
+    /* letter-spacing: 0.1rem; */
+    /* gap: 1rem; */
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.formGroup select{
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #000000;
+    padding: 0.75rem 1.5rem;
+    border: #726f6f solid 0.1rem;
+    border-radius: 0.5rem ;
+    /* letter-spacing: 0.1rem; */
+    /* gap: 1rem; */
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.formGroup textarea{
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #000000;
+    padding: 0.75rem 1.5rem;
+    border: #726f6f solid 0.1rem;
+    border-radius: 0.5rem ;
+    /* letter-spacing: 0.1rem; */
+    /* gap: 1rem; */
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.formGroup textarea::placeholder{
+    color: #726f6f;
+}
+.formGroup button{
+    background-color: #ff9900;
+    font-family: "EB Garamond", serif;
+    font-size: 1.7rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem ;
+    /* letter-spacing: 0.1rem; */
+    /* gap: 1rem; */
+    width: 100%;
+    height: auto;
+}
+
+.messageBox input {
+    /* background-color: #ffffff; */
+
+}
+
+.contactBlock {
+    /* background-color: #ffffff; */
+    width: 100%;
+    height: auto;
+    padding: 0rem 1rem;
+    gap: 3rem;
+}
+
+.contactBox {
+    /* background-color: #e8f5e9; */
+    width: 100%;
+    height: auto;
+}
+
+.fsubheadingBox {
+    /* background-color: #e1f5fe; */
+}
+
+.fsubheadingBox h3 {
+    /* background-color: #f0f4c3; */
+    font-family: "EB Garamond", serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #ffffff;
+    /* padding: 1.25rem 1.5rem; */
+    /* letter-spacing: 0.1rem; */
+    margin-bottom: 1.5rem;
+}
+
+.fsubheadingBox .horizonLine {
+    /* background-color: #d1c4e9; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fsubheadingBox .horizonBox {
+    /* background-color: #ffe0b2; */
+    background-color: #ff9900;
+    height: 0.21rem;
+    width: 100%;
+}
+
+.address {
+    /* background-color: #f0f4c3; */
+    padding: 1rem 0rem;
+}
+
+.address p {
+    /* background-color: #ffffff; */
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.8;
+    color: #ffffff;
+    /* padding: 1.25rem 1.5rem; */
+    /* letter-spacing: 0.1rem; */
+    /* margin-bottom: 1rem; */
+}
+
+.mailBox {
+    /* background-color: #fffde7; */
+}
+
+.mailBox p {
+    /* background-color: #a59c35; */
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.8;
+    color: #ffffff;
+    /* padding: 1.25rem 1.5rem; */
+    /* letter-spacing: 0.1rem; */
+    /* margin-bottom: 1rem; */
+}
+
+.mailBox a {
+    /* background-color: #e98181; */
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.8;
+    color: #ffffff;
+    /* padding: 1.25rem 1.5rem; */
+    /* letter-spacing: 0.1rem; */
+    /* margin-bottom: 1rem; */
+}
+
+.phoneBox {
+    /* background-color: #ffecb3; */
+}
+
+.phoneBox p {
+    /* background-color: #a59c35; */
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.8;
+    color: #ffffff;
+    /* padding: 1.25rem 1.5rem; */
+    /* letter-spacing: 0.1rem; */
+    /* margin-bottom: 1rem; */
+}
+
+.phoneBox a {
+    /* background-color: #ffffff; */
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.8;
+    color: #ffffff;
+    /* padding: 1.25rem 1.5rem; */
+    /* letter-spacing: 0.1rem; */
+    /* margin-bottom: 1rem; */
+}
+
+.linkBox {
+    /* background-color: #fce4ec; */
+    width: 100%;
+    height: auto;
+    /* padding: 3rem; */
+}
+
+.icons {
+    /* background-color: #f8bbd0; */
+    width: 100%;
+    height: auto;
+    /* padding: 1rem; */
+    /* gap: 2rem; */
+}
+
+.iconsBox {
+    background-color: #ffffff;
+    aspect-ratio: 1 / 1 ;
+    width: 5rem;
+    border-radius: 100%;
+    padding: 1rem;
+    margin: 1.5rem 1rem;
+}
+.iconsBox a{
+    /* background-color: #f1f8e9; */
+}
+.iconsBox a i {
+    /* background-color: #ffffff; */
+    color: #003366;
+    font-size: 2.25rem;
+}
+
+.copyrightsBody {
+    /* background-color: #d1c4e9; */
+}
+
+.copyrightsBlock {
+    /* background-color: #b39ddb; */
+}
+
+.copyrightsBox {
+    /* background-color: #b4ed82; */
+}
+
+.copyrightsBox {
+    /* background-color: #9575cd; */
+    font-family: "EB Garamond", serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.8;
+    color: #ffffff;
+    /* padding: 1.25rem 1.5rem; */
+    /* letter-spacing: 0.1rem; */
+    /* margin-bottom: 1rem; */
+}

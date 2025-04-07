@@ -1,0 +1,75 @@
+.about {
+    background-color: #ffffff;
+}
+
+.aboutContainer {
+    /* background-color: #ffe0b2; */
+}
+
+.headingBody {
+    /* background-color: #f8bbd0; */
+}
+
+.headingBlock {
+    /* background-color: #bbdefb; */
+    padding: 2rem 0rem;
+}
+
+.headingBox {
+    /* background-color: #c5cae9; */
+    width: 100%;
+    height: auto;
+}
+
+.headingBox  h2 {
+    /* background-color: #e0f7fa; */
+    font-family: "EB Garamond", serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #003366;
+    /* padding: 1.25rem 1.5rem; */
+    /* letter-spacing: 0.1rem; */
+    margin-bottom: 1.75rem;
+}
+
+
+.headingBox  .horizonLine {
+    /* background-color: #f1f8e9; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+.headingBox .horizonBox {
+    background-color: #ff9900;
+    height: 0.3rem;
+    width: 7%;
+}
+
+.aboutBody {
+    /* background-color: #ffcdd2; */
+}
+
+.aboutBlock {
+    /* background-color: #cbb572; */
+}
+
+.aboutBox {
+    /* background-color: #ede7f6; */
+}
+
+.aboutBox p {
+    /* background-color: #ffffff; */
+    font-family: "EB Garamond", serif;
+    font-size: 1.76rem;
+    font-weight: 100;
+    line-height: 1.8;
+    color: #333333;
+    width: 100%;
+    padding: 1.75rem 12rem;
+    /* letter-spacing: 0.1rem; */
+    margin-bottom: 2rem;
+}

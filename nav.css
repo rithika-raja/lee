@@ -1,0 +1,68 @@
+.navBar {
+    background-color: #ffffff;
+}
+
+.navContainer {
+    /* background-color: #00ffff; */
+}
+
+.navBody {
+    /* background-color: #438989; */
+}
+
+.logoBlock {
+    /* background-color: #898043; */
+}
+
+.logoBox {
+    /* background-color: #f4d613; */
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.logoBox a {
+    /* background-color: #7e6f07; */
+}
+
+.logoBox a figure {
+    /* background-color: #077e3f; */
+}
+
+.logoBox a figure img {
+    /* background-color: #45c581; */
+    height: 7.25rem;
+}
+
+
+.navBlock {
+    /* background-color: #f4d613; */
+}
+
+.navBox {
+    /* background-color: #3af280; */
+   width: 100%;
+   height: auto;
+}
+
+.navBox ul {
+    /* background-color: #f26b3a; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navBox ul li {
+    /* background-color: #987162; */
+}
+
+.navBox ul li a {
+    /* background-color: #e98d68; */
+    font-family: "EB Garamond", serif;
+    font-size: 1.76rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #003366;
+    padding: 1.25rem 1.5rem;
+    /* letter-spacing: 0.1rem; */
+    /* margin-bottom: 1rem; */
+}

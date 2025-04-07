@@ -1,0 +1,101 @@
+.chooseus {
+    background-color: #ffffff;
+}
+
+.chooseContainer {
+    /* background-color: #f3e5f5; */
+}
+
+.chooseBody {
+    /* background-color: #fffde7; */
+    padding: 3rem 2rem;
+    column-gap: 5rem;
+}
+
+.noBlock,
+.yesBlock {
+    background-color: #f5f5f5;
+    padding: 3rem 3rem;
+    border-radius: 1rem;
+}
+
+.subheadingBox {
+    /* background-color: #e1f5fe; */
+}
+
+.subheadingBox h3 {
+    /* background-color: #f0f4c3; */
+    font-family: "EB Garamond", serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #003366;
+    /* padding: 1.25rem 1.5rem; */
+    /* letter-spacing: 0.1rem; */
+    margin-bottom: 1.5rem;
+}
+
+.subheadingBox .horizonLine {
+    /* background-color: #d1c4e9; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subheadingBox .horizonBox {
+    /* background-color: #ffe0b2; */
+    background-color: #ff9900;
+    height: 0.2rem;
+    width: 9%;
+}
+
+.noBox,
+.yesBox {
+    /* background-color: #f8bbd0; */
+    width: 100%;
+    height: auto;
+    padding: 2rem 0rem;
+}
+
+
+.noBox ul,
+.yesBox ul {
+    /* background-color: #fff3e0; */
+}
+
+.noBox ul li,
+.yesBox ul li {
+    /* background-color: #e0f7fa; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 0.5rem;
+}
+
+.noBox ul li i {
+    /* background-color: #e0f2f1; */
+    padding: 1rem;
+    color: #f10202;
+}
+
+.yesBox ul li i {
+    /* background-color: #e0f2f1; */
+    padding: 1rem;
+    color: #008000;
+}
+
+.noBox ul li i p,
+.yesBox ul li i p {
+    /* background-color: #ffffff; */
+    font-family: "EB Garamond", serif;
+    font-size: 1.76rem;
+    font-weight: 100;
+    line-height: 1.8;
+    color: #333333;
+    width: 100%;
+    /* padding: 1rem; */
+    /* letter-spacing: 0.1rem; */
+    /* margin-bottom: 2rem; */
+}
+

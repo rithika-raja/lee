@@ -1,0 +1,142 @@
+.tax {
+    background-color: #f5f5f5;
+}
+
+.taxContainer {
+    /* background-color: #fff8e1; */
+}
+
+.questionBody {
+    /* background-color: #fce4ec; */
+}
+
+.questionBlock {
+    /* background-color: #ede7f6; */
+}
+
+.questionBox {
+    /* background-color: #d1c4e9; */
+    width: 100%;
+    height: auto;
+}
+
+.questionBox h2 {
+    /* background-color: #e0f7fa; */
+    font-family: "EB Garamond", serif;
+    font-size: 3.52rem;
+    font-weight: 700;
+    line-height: 2;
+    color: #003366;
+    /* letter-spacing: 0.1rem; */
+    /* margin-bottom: 2rem; */
+}
+
+.questionBox span {
+    /* background-color: #f1f8e9; */
+    color: #ff9900;
+}
+
+.stepsBody {
+    /* background-color: #f0f4c3; */
+    padding: 5rem 1.5rem;
+}
+
+.stepsBlock {
+    /* background-color: #ffe0b2; */
+    width: 100%;
+    height: auto;
+}
+
+.stepsBox {
+    /* background-color: #c8e6c9; */
+    width: 100%;
+    height: auto;
+}
+
+.Stepicon {
+    background-color: #003366;
+    aspect-ratio: 1 /1 ;
+    width: 70%;
+    border-radius: 100%;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.Stepicon i {
+    /* background-color: #fff3e0; */
+    color: #ffffff;
+    font-size: 2.8rem;
+}
+
+.stepsBox h4 {
+    /* background-color: #e1f5fe; */
+    font-family: "EB Garamond", serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #003366;
+    /* letter-spacing: 0.1rem; */
+}
+
+.arrowBlock {
+    /* background-color: #f8bbd0; */
+}
+
+.arrowBox {
+    background-color: #0066cc;
+    width: 100%;
+    height: 0.32rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.arrowBox i{
+    /* background-color: #aed581; */
+    font-size: 2rem;
+    color: #0066cc;
+}
+
+.adviceBody {
+    /* background-color: #ffccbc; */
+}
+
+.adviceBlock {
+    /* background-color: #c5cae9; */
+}
+
+.adviceBox {
+    /* background-color: #b2dfdb; */
+}
+
+.adviceBox button {
+    background-color: #ff9900;
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 50rem;
+    padding: 1.75rem 7.5rem ;
+    transition: background-color 0.1s ease;
+}
+
+.adviceBox button:hover {
+    background-color: #003366;
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 50rem;
+    padding: 1.75rem 7.5rem ;
+    transition: background-color 0.1s ease;
+}
+.adviceBox button i{
+    /* background-color: #c5cae9; */
+    color: #ffffff;
+    padding-left: 1rem ;
+}
