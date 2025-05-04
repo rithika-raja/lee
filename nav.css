@@ -1,5 +1,7 @@
 .navBar {
     background-color: #ffffff;
+    position: fixed;
+    width: 100%;
 }
 
 .navContainer {
@@ -38,24 +40,50 @@
     /* background-color: #f4d613; */
 }
 
+/* Step 7 : contentContainer */
+/* input */
+.menu-toggle {
+    display: none;
+}
+
+/* label */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    border: #787676 solid 0.1rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    position: absolute;
+    top: 2.7rem;
+    right: 2rem;
+}
+
+.hamburger i {
+    /* background-color: #faebd7; */
+    /* padding: 0.5rem; */
+    color: #787676;
+    font-size: 2.75rem;
+    /* display: none; */
+}
 .navBox {
     /* background-color: #3af280; */
    width: 100%;
    height: auto;
 }
 
-.navBox ul {
+.nav-links {
     /* background-color: #f26b3a; */
     display: flex;
     align-items: center;
     justify-content: end;
 }
 
-.navBox ul li {
+.nav-links li {
     /* background-color: #987162; */
 }
 
-.navBox ul li a {
+.nav-links li a {
     /* background-color: #e98d68; */
     font-family: "EB Garamond", serif;
     font-size: 1.76rem;
@@ -65,4 +93,37 @@
     padding: 1.25rem 1.5rem;
     /* letter-spacing: 0.1rem; */
     /* margin-bottom: 1rem; */
+}
+
+
+/* Responsive styles */
+@media (max-width: 360px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        background-color: var(--lightColor);
+        position: absolute;
+        top: 10.2rem;
+        left: 0;
+        right: 0;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+    .nav-links a {
+        /* background-color: #d9bc2c; */
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .menu-toggle:checked~.nav-links {
+        display: flex;
+    }
 }
