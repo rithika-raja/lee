@@ -244,7 +244,7 @@ footer {
 
 /* Small devices (landscape phones, upto 576px and below) */
 /* @media (width <=576px) */
-@media (max-width: 360px) {
+@media (max-width: 576px)  {
 
   .grid-1,
   .grid-2,

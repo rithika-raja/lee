@@ -94,7 +94,7 @@
     aspect-ratio: 5 / 7;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 576px)  {
     .heroBox {
         /* background-color: #c5cae9; */
         width: 100%;
